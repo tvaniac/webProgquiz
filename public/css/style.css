@@ -1,0 +1,84 @@
+footer {
+    background-color: #2b2b2b;
+    color: #fff;
+}
+
+/* Memperbesar tinggi navbar dan memberikan padding */
+.custom-navbar {
+    /* padding-top: 1rem;
+    padding-bottom: 1rem; */
+    background-color: white;
+}
+
+/* Menyesuaikan ukuran logo di navbar */
+.navbar-logo {
+    height: 80px;
+    width: auto;
+}
+
+/* Warna teks default link navbar */
+.nav-link {
+    color: #333 !important;
+}
+
+/* Gaya link aktif */
+.nav-link.active {
+    color: #007bff !important; /* Warna biru */
+    border-bottom: 2px solid #007bff; /* Garis bawah biru */
+}
+
+/* Warna dropdown menu agar tetap terlihat */
+.dropdown-menu {
+    background-color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+/* Menghilangkan margin dan padding di sekitar container */
+.container-fluid,
+.row,
+.col-12 {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Styling untuk foto besar di halaman */
+.foto-homepage {
+    width: 100%;
+    height: auto;
+    border-radius: 0; /* Menghilangkan border-radius agar fullscreen */
+    /* margin-bottom: 20px; */
+} 
+
+/* Styling untuk item artikel */
+ul.list-unstyled li {
+    display: flex;
+    align-items: left;
+    border-radius: 20px;
+    background-color: #e8f0e3;
+    padding: 15px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+/* Styling untuk gambar di artikel */
+.article-image {
+    width: 80px;
+    height: 100px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+/* Styling untuk tombol Read More */
+.btn-read-more {
+    border-radius: 70px;
+    font-weight: bold;
+    padding: 5px 20px;
+    background-color: #2c3e50;
+    color: white;
+    text-transform: lowercase;
+}
+.btn-read-more:hover {
+    background-color: #1a242f;
+}
